@@ -1,5 +1,5 @@
 
-(defproject compojure-war-example "0.0.1"
+(defproject compojure-war-example "0.0.2"
   :description "Deployable hello world in compojure"
   :dependencies [[org.clojure/clojure "1.2.0"]
                  [org.clojure/clojure-contrib "1.2.0"]
@@ -10,7 +10,7 @@
   :dev-dependencies [[ring/ring-jetty-adapter "0.2.5"]
                      [ring/ring-devel "0.2.5"]
                      [swank-clojure "1.2.1"]
-                     [uk.org.alienscience/leiningen-war "0.0.8"]]
+                     [uk.org.alienscience/leiningen-war "0.0.9"]]
   ;; A servlet class must compiled for use in a java web server
   :aot [deploy.servlet])
 
