@@ -44,7 +44,7 @@ Hack and change as you wish.
 Create a WAR file:
     lein uberwar
 Copy to the webserver (e.g standalone Jetty):
-    cp compojure-war-example-0.0.1.war ~/jetty/webapps/
+    cp compojure-war-example-0.0.3.war ~/jetty/webapps/
 Start the webserver (e.g standalone Jetty):
     cd ~/jetty/webapps
     java -jar start.jar
@@ -53,6 +53,6 @@ Start the webserver (e.g standalone Jetty):
 
 ### Static files aren't served ###
 
-With some java webservers, e.g Jetty, you need to enable the default servlet to allow serving of static content.
+With Jetty, you need to enable the default servlet to allow serving of static content.
 
 

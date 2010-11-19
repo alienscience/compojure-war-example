@@ -1,4 +1,4 @@
-<webapp>
+<web-app>
   <!-- Servlet class taken from first :aot namespace -->
   <servlet>
      <servlet-name>compojure-hello-world</servlet-name>
@@ -8,4 +8,4 @@
      <servlet-name>compojure-hello-world</servlet-name>
      <url-pattern>/app/*</url-pattern>
   </servlet-mapping>
-</webapp>
+</web-app>
