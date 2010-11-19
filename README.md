@@ -49,10 +49,6 @@ Start the webserver (e.g standalone Jetty):
     cd ~/jetty/webapps
     java -jar start.jar
 
-## Troubleshooting ##
 
-### Static files aren't served ###
-
-With Jetty, you need to enable the default servlet to allow serving of static content.
 
 
