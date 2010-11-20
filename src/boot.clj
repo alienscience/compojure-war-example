@@ -30,4 +30,7 @@
         s (run-jetty handler {:port *port* :join? false})]
     (reset! server s)))
 
-
+(defn restart
+  "Restarts the web application"
+  []
+  (start))
