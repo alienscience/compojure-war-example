@@ -1,7 +1,7 @@
 
 # Example Compojure application #
 
-This project contains a base web application deployable as a WAR file on a standard java webserver (which is sometimes known as a "servlet container"). It can be used to quickly get started on Clojure web development using a <projectname> of your choice:
+This project contains a base web application deployable as a WAR file on a standard java webserver (which is sometimes known as a "servlet container"). It can be used to quickly get started on Clojure web development using a 'projectname' of your choice:
 
      git clone -o example https://github.com/alienscience/compojure-war-example.git <projectname>
      cd <projectname>
