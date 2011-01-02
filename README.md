@@ -56,7 +56,7 @@ Hack and change as you wish.
 Create a WAR file:
     lein uberwar
 Deploy to the webserver (e.g standalone Jetty):
-    cp compojure-war-example-0.0.3.war ~/jetty/webapps/example.war
+    cp example.war ~/jetty/webapps/
 Start the webserver (e.g standalone Jetty):
     cd ~/jetty/webapps
     java -jar start.jar
