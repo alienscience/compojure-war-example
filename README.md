@@ -1,7 +1,9 @@
 
 # Example Compojure application #
 
-This project contains a base web application deployable as a WAR file on a standard java webserver (which is sometimes known as a "servlet container"). It can be used to quickly get started on Clojure web development using a 'projectname' of your choice:
+This example application is only intended for developers that use the leiningen-war plugin. Developers starting out doing web development in clojure are recommended to use the [lein-ring](https://github.com/weavejester/lein-ring) plugin.
+
+This project contains a base web application deployable as a WAR file on a standard java webserver (which is sometimes known as a "servlet container"). It is used to demonstrate creating a deployable application with a 'projectname' of your choice:
 
      git clone -o example https://github.com/alienscience/compojure-war-example.git <projectname>
      cd <projectname>

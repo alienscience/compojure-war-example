@@ -11,7 +11,7 @@
   :dev-dependencies [[ring/ring-jetty-adapter "0.3.5"]
                      [ring/ring-devel "0.3.5"]
                      [swank-clojure "1.2.1"]
-                     [uk.org.alienscience/leiningen-war "0.0.12"]]
+                     [uk.org.alienscience/leiningen-war "0.0.13"]]
   ;; A servlet class must compiled for use in a java web server
   :aot [deploy.servlet]
   ;; Set the name of the resulting WAR file
